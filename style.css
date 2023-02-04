@@ -14,7 +14,7 @@
     font-family: "sii";
 }
 .container{
-    width: 1450px;
+    width: 1250px;
     height: auto;
     margin: 0px auto;
     /* border: 1px solid black; */
@@ -78,6 +78,7 @@ main{
     position: absolute;
     top: 1rem;
     z-index: 1;
+    width: 90%;
 }
 .hero_text{
     position: relative;
@@ -94,7 +95,7 @@ main{
 .choose{
     position: relative;
     top: 37rem;
-    height: 55vh;
+    height: 70vh;
     background: 
     #F1F1F1;
 }
@@ -121,4 +122,15 @@ main{
 .choose__cards{
     position: relative;
     top: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+.choose_card{
+    width: 27%;
+    margin: 0 0.5rem;
+    text-align: center;
+}
+.choose_card p{
+    padding: 0.5rem 0rem;
+    line-height: 25px;
 }
