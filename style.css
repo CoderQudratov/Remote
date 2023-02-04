@@ -1,0 +1,124 @@
+:root{
+    --text_color: #575757;
+}
+@font-face{
+    font-family: "sii";
+    src: url(./fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sii";
+}
+.container{
+    width: 1450px;
+    height: auto;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+}
+header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: #F0F0F0;
+    z-index: 2;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    
+}
+.ul_nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.ul_nav li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 13px;
+    
+
+}
+.navbar_a{
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    background: #8C8C8C;
+    border-radius: 22px;
+    color: #fff;
+    font-size: 14px;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.hero{
+    width: 100%;
+    height: auto;
+    /* padding-top:2rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__img{
+    position: relative;
+    width: 50%;
+    /* top: 1rem; */
+}
+.hero__img img{
+    position: absolute;
+    top: 1rem;
+    z-index: 1;
+}
+.hero_text{
+    position: relative;
+    top: 13rem;
+}
+.hero_text h3{
+    font-size: 50px;
+    padding: 1rem 0rem;
+}
+.hero_text p{
+    padding: 0rem 0rem 2rem 0rem;
+    font: 20px;
+}
+.choose{
+    position: relative;
+    top: 37rem;
+    height: 55vh;
+    background: 
+    #F1F1F1;
+}
+/* Absolute bor joyda padding kup ishlatilinadi */
+/* Yoki padding bilan yoki otasiga relative berib bolasiga absolute berib hatoni tugirlaysizlar */
+/* Height orqali keyinchalik border bilan ulchab tugirlaysizlar */
+.choose__text{
+    /* padding-top: 5rem;     */
+    position: absolute;
+    top: 3rem;
+}
+.choose__text h3{
+    font-size: 30px;
+    color: var(--text_color);
+    padding: 1rem 0rem;
+}
+.choose__text p{
+    font-size: 16px;
+    width: 80%;
+    line-height: 25px;
+    color: var(--text_color);
+    font-weight: 600;
+}
+.choose__cards{
+    position: relative;
+    top: 15rem;
+}
